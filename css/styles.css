@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -7,7 +11,7 @@
 .logo-one {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 16px;
 }
 .nav-menu {
   align-items: center;
@@ -42,16 +46,68 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #02897a;
+  background-color: #fff;
+  border: none;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-button {
-  margin: 0 21px;
+.button-one {
   width: 105px;
   height: 42px;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+  background-color: #fff;
+
+  border-radius: 4px;
+}
+.two .container {
+  flex-direction: column;
+}
+.menutwo {
+  display: flex;
+}
+.button-now {
+  margin: 50px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+}
+.button {
+  margin-left: 21px;
+  background: #02897a;
+  height: 42px;
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 20px;
+  width: 1150px;
+  margin: 0 auto;
 }
 .solutions {
   font-weight: 700;
@@ -71,6 +127,7 @@ button {
   font-size: 18px;
   line-height: 1.55556;
   color: #22343d;
+  padding-bottom: 45px;
 }
 p,
 h1,
@@ -83,4 +140,7 @@ h6 {
 }
 a {
   text-decoration: none;
+}
+.section-one {
+  padding-bottom: 100px;
 }
