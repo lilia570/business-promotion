@@ -7,12 +7,41 @@
 .logo-one {
   display: flex;
   align-items: center;
+  gap: 4px;
 }
 .nav-menu {
   align-items: center;
   display: flex;
   gap: 30px;
   margin-right: 73px;
+}
+.nav-menu a {
+  color: #000000;
+}
+.logo-two {
+  font-size: 30px;
+  color: #173a56;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  line-height: 0.93333;
+  padding-right: 237px;
+}
+.button-get {
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
+  border: none;
+}
+.button-two {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
 }
 ul {
   list-style-type: none;
@@ -24,7 +53,25 @@ button {
   width: 105px;
   height: 42px;
 }
-
+.solutions {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 18px;
+  margin-right: 13px;
+}
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.tools {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #22343d;
+}
 p,
 h1,
 h2,
@@ -33,4 +80,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+a {
+  text-decoration: none;
 }
